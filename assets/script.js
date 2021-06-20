@@ -70,7 +70,7 @@ function escolheLetra(letra) { //O jogo se inicializará automaticamente ao esco
 
     if (chances === 0) { // Condição, caso erre muitas vezes e gaste suas chances, apresenta as seguinte menssagens
         let mensagem = document.createElement("p");
-        let t1 = document.createTextNode("Você foi enforcado! Palavra secreta: "+palavra);
+        let t1 = document.createTextNode("Você foi enforcado! Palavra secreta é: "+palavra);
         mensagem.appendChild(t1);
            
         let botao = document.createElement("button");
